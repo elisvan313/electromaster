@@ -1,23 +1,49 @@
+* h1{
+    font-family: 'Kaushan Script', cursive;  
+}
+
 .jumbotron{
-    background-color: yellow;
+    background-color:  black;
+    color: white;
+    font-size: 40px;
+    font-style: italic;
+    
+    
+}
+body{
+    background: white;
     color: black;
 }
 footer{
     padding: 10px 10px 0 10px;
-    background-color: yellow;
+    background-color: black;
     margin-bottom: 0px;
     margin-top: 10px;
+    text-align: center;
+    color: white;
 }
-.card-hotel{
+
+.card-electro{
+
     flex: 1 150px;
     padding: 2px 5px 2px 5px;
-    background: rgb(2, 82, 255);
+    background: black;
     margin-right: 10px;
-    border-radius: 5px 5px 5px 5px;
+    border-radius: 10px 10px 10px 10px;
     color: white;
+    text-align: center;
+    
+}
+
+.card-electro img{
+    padding: 20px;
+    border-radius: 20%;
 }
 .btn-reserva{
     width: 100%;
-   
+    border-radius: 10%;
+    background: rgb(19, 145, 204);
+    color: white;
+    font-family: 'Kaushan Script', cursive;
 
 }
